@@ -1,0 +1,1378 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMIT Mühendislik - Endüstriyel Yangın Söndürme Sistemleri</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- AOS - Animate On Scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <!-- Header Bölümü -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="https://www.logogenie.com.tr/icons/preview/11276" alt="EMIT Mühendislik Logo" height="60">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Ana Sayfa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#hakkimizda">Hakkımızda</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="hizmetlerDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Hizmetlerimiz
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="hizmetlerDropdown">
+                                <li><a class="dropdown-item" href="#proje-danismanligi">Proje Danışmanlığı</a></li>
+                                <li><a class="dropdown-item" href="#proje-taahhut">Proje Taahhüt Hizmetleri</a></li>
+                                <li><a class="dropdown-item" href="#teknik-servis">Teknik Servis Bakım</a></li>
+                                <li><a class="dropdown-item" href="#periyodik-kontrol">Periyodik Kontrol Hizmetleri</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#referanslar">Referanslar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#haberler">Haberler</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#iletisim">İletişim</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Ana Slider Bölümü -->
+    <section id="hero-slider" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="overlay-image">
+                    <img src="https://images.unsplash.com/photo-1531972111231-7482a960e109?q=80&w=1920&h=700&auto=format&fit=crop" class="d-block w-100" alt="Endüstriyel Yangın Söndürme">
+                </div>
+                <div class="carousel-caption text-start">
+                    <div class="caption-content animate__animated animate__fadeInUp">
+                        <span class="caption-badge">ENDÜSTRİYEL ÇÖZÜMLER</span>
+                        <h1 class="display-4 fw-bold mb-4">Endüstriyel Tesisler İçin<br>Yangın Güvenliği Çözümleri</h1>
+                        <p class="lead mb-4">Gazlı söndürme sistemleri ve acil durum senaryoları ile tesisleriniz güvende</p>
+                        <a href="#iletisim" class="btn btn-danger btn-lg rounded-0">Bizimle İletişime Geçin <i class="fas fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="overlay-image">
+                    <img src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?q=80&w=1920&h=700&auto=format&fit=crop" class="d-block w-100" alt="Sistem Bakımı">
+                </div>
+                <div class="carousel-caption text-start">
+                    <div class="caption-content animate__animated animate__fadeInUp">
+                        <span class="caption-badge">BAKIM HİZMETLERİ</span>
+                        <h1 class="display-4 fw-bold mb-4">Sistem Yenileme ve<br>Bakım Hizmetleri</h1>
+                        <p class="lead mb-4">Mevcut sistemlerden memnun değil misiniz? EMIT Mühendislik çözümleri yanınızda</p>
+                        <a href="#teknik-servis" class="btn btn-danger btn-lg rounded-0">Detaylı Bilgi <i class="fas fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="overlay-image">
+                    <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=1920&h=700&auto=format&fit=crop" class="d-block w-100" alt="Periyodik Kontrol">
+                </div>
+                <div class="carousel-caption text-start">
+                    <div class="caption-content animate__animated animate__fadeInUp">
+                        <span class="caption-badge">PERİYODİK KONTROL</span>
+                        <h1 class="display-4 fw-bold mb-4">Ekipnet İmzalı<br>Periyodik Kontrol Hizmetleri</h1>
+                        <p class="lead mb-4">Yasal zorunluluklarınızı yerine getirmek için güvenilir çözüm ortağınız</p>
+                        <a href="#periyodik-kontrol" class="btn btn-danger btn-lg rounded-0">Hemen İnceleyin <i class="fas fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#hero-slider" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Önceki</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#hero-slider" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Sonraki</span>
+        </button>
+        
+        <!-- Scroll göstergesi -->
+        <div class="scroll-indicator" data-aos="fade-up" data-aos-delay="1500">
+            <i class="fas fa-chevron-down"></i>
+            <span>Aşağı Kaydır</span>
+        </div>
+        
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#hero-slider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#hero-slider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#hero-slider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+    </section>
+
+    <!-- Neden Biz Bölümü -->
+    <section id="neden-biz" class="py-5">
+        <div class="container">
+            <div class="row align-items-center mb-5">
+                <div class="col-lg-5">
+                    <div class="section-header animate__animated animate__fadeInLeft">
+                        <span class="section-badge bg-danger text-white px-3 py-1 mb-3 d-inline-block">NEDEN BİZ?</span>
+                        <h2 class="display-4 fw-bold mb-3">Endüstriyel Yangın<br>Güvenliğinin <span class="text-danger">Uzmanı</span></h2>
+                        <p class="lead mb-4">20 yıllık saha tecrübemiz ve uzman kadromuzla endüstriyel tesisinizin güvenliğini <strong>garantiye alıyoruz</strong>.</p>
+                        <a href="#iletisim" class="btn btn-danger btn-lg rounded-0">Bizimle Çalışın <i class="fas fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="row metrics-row g-4 mt-4 mt-lg-0">
+                        <div class="col-6 col-md-3">
+                            <div class="metric-box text-center animate__animated animate__fadeInUp">
+                                <span class="display-3 fw-bold text-danger counter">250</span>
+                                <span class="d-block mt-2">Tamamlanan Proje</span>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="metric-box text-center animate__animated animate__fadeInUp" data-wow-delay="0.2s">
+                                <span class="display-3 fw-bold text-danger counter">20</span>
+                                <span class="d-block mt-2">Yıllık Tecrübe</span>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="metric-box text-center animate__animated animate__fadeInUp" data-wow-delay="0.4s">
+                                <span class="display-3 fw-bold text-danger counter">45</span>
+                                <span class="d-block mt-2">Uzman Mühendis</span>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="metric-box text-center animate__animated animate__fadeInUp" data-wow-delay="0.6s">
+                                <span class="display-3 fw-bold text-danger counter">98<span class="percent">%</span></span>
+                                <span class="d-block mt-2">Müşteri Memnuniyeti</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-5 features-row">
+                <div class="col-lg-4 mb-4">
+                    <div class="feature-card h-100 animate__animated animate__fadeInUp">
+                        <div class="feature-icon mb-4">
+                            <div class="icon-bg">
+                                <i class="fas fa-tools fa-2x text-white"></i>
+                            </div>
+                        </div>
+                        <div class="feature-content">
+                            <h3 class="fw-bold mb-3">Sistem Yenileme ve Değişim Uzmanlığı</h3>
+                            <p class="mb-4">Mevcut sistemlerinizden memnun değil misiniz? Sorunlu sistemlerinizi <strong>%40 daha verimli</strong> çözümlerle yeniliyoruz.</p>
+                            <ul class="feature-list">
+                                <li><i class="fas fa-check-circle text-danger me-2"></i> Sorunsuz geçiş süreci</li>
+                                <li><i class="fas fa-check-circle text-danger me-2"></i> Maliyet optimizasyonu</li>
+                                <li><i class="fas fa-check-circle text-danger me-2"></i> Üretimi durdurmadan renovasyon</li>
+                            </ul>
+                        </div>
+                        <a href="#teknik-servis" class="stretched-link"></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="feature-card h-100 premium animate__animated animate__fadeInUp" data-wow-delay="0.2s">
+                        <div class="premium-badge">EN ÇOK TERCİH EDİLEN</div>
+                        <div class="feature-icon mb-4">
+                            <div class="icon-bg">
+                                <i class="fas fa-file-signature fa-2x text-white"></i>
+                            </div>
+                        </div>
+                        <div class="feature-content">
+                            <h3 class="fw-bold mb-3">Ekipnet İmzalı Periyodik Kontrol</h3>
+                            <p class="mb-4">Yasal yükümlülüklerinizi <strong>tek noktadan</strong> ve <strong>eksiksiz</strong> olarak yerine getirmenizi sağlıyoruz.</p>
+                            <ul class="feature-list">
+                                <li><i class="fas fa-check-circle text-danger me-2"></i> İş güvenliği mevzuatına %100 uyum</li>
+                                <li><i class="fas fa-check-circle text-danger me-2"></i> Eksiksiz raporlama sistemi</li>
+                                <li><i class="fas fa-check-circle text-danger me-2"></i> 3 gün içinde sertifikalandırma</li>
+                            </ul>
+                        </div>
+                        <a href="#periyodik-kontrol" class="stretched-link"></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="feature-card h-100 animate__animated animate__fadeInUp" data-wow-delay="0.4s">
+                        <div class="feature-icon mb-4">
+                            <div class="icon-bg">
+                                <i class="fas fa-industry fa-2x text-white"></i>
+                            </div>
+                        </div>
+                        <div class="feature-content">
+                            <h3 class="fw-bold mb-3">Endüstriyel Tesis Uzmanlığı</h3>
+                            <p class="mb-4">Sadece endüstriyel tesislere odaklanarak <strong>sektöre özel</strong> yangın güvenlik çözümleri geliştiriyoruz.</p>
+                            <ul class="feature-list">
+                                <li><i class="fas fa-check-circle text-danger me-2"></i> Sektöre özel risk analizi</li>
+                                <li><i class="fas fa-check-circle text-danger me-2"></i> Uluslararası standartlara uygunluk</li>
+                                <li><i class="fas fa-check-circle text-danger me-2"></i> Acil durum senaryoları geliştirme</li>
+                            </ul>
+                        </div>
+                        <a href="#proje-danismanligi" class="stretched-link"></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-5">
+                <div class="col-12 text-center">
+                    <div class="trust-badge-container animate__animated animate__fadeInUp">
+                        <div class="trust-badge">
+                            <i class="fas fa-shield-alt text-danger me-2"></i>
+                            <span>ISO 9001:2015</span>
+                        </div>
+                        <div class="trust-badge">
+                            <i class="fas fa-shield-alt text-danger me-2"></i>
+                            <span>ISO 14001:2015</span>
+                        </div>
+                        <div class="trust-badge">
+                            <i class="fas fa-shield-alt text-danger me-2"></i>
+                            <span>OHSAS 18001:2007</span>
+                        </div>
+                        <div class="trust-badge">
+                            <i class="fas fa-medal text-danger me-2"></i>
+                            <span>TSE Belgeli</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+
+    <!-- Counter Animasyonu için JavaScript -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Counter animasyonu
+        const counters = document.querySelectorAll('.counter');
+        const speed = 200;
+        
+        function animateCounters() {
+            counters.forEach(counter => {
+                const targetValue = counter.innerText.replace('%', '');
+                const target = parseInt(targetValue);
+                let count = 0;
+                const increment = target / speed;
+                
+                function updateCount() {
+                    count += increment;
+                    const value = Math.ceil(count);
+                    
+                    if (counter.querySelector('.percent')) {
+                        counter.innerHTML = value + '<span class="percent">%</span>';
+                    } else {
+                        counter.innerText = value;
+                    }
+                    
+                    if (count < target) {
+                        setTimeout(updateCount, 1);
+                    } else {
+                        if (counter.querySelector('.percent')) {
+                            counter.innerHTML = target + '<span class="percent">%</span>';
+                        } else {
+                            counter.innerText = target;
+                        }
+                    }
+                }
+                
+                updateCount();
+            });
+        }
+        
+        // Gözlemci oluştur
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    animateCounters();
+                    observer.unobserve(entry.target);
+                }
+            });
+        });
+        
+        // Metrics-row'u gözlemle
+        const metricsRow = document.querySelector('.metrics-row');
+        if (metricsRow) {
+            observer.observe(metricsRow);
+        }
+    });
+    </script>
+    
+    <!-- Müşteri Yorumları Bölümü -->
+    <section id="musteri-yorumlari" class="testimonial-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <span class="section-badge">MÜŞTERİ DENEYİMLERİ</span>
+                    <h2 class="section-title">Müşteri Yorumları</h2>
+                    <p class="section-subtitle">Endüstriyel yangın güvenliği çözümlerimiz hakkında değerli müşterilerimizin görüşleri</p>
+                </div>
+            </div>
+            
+            <div class="testimonial-row">
+                <div class="testimonial-col">
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <div class="client-logo">
+                                <img src="https://www.shannonchamber.ie/wp-content/uploads/2024/07/siemens-logo.png" alt="Siemens Logo">
+                            </div>
+                            <div class="client-details">
+                                <h4>Siemens Türkiye</h4>
+                                <span>Teknik Müdür</span>
+                                <div class="testimonial-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-body">
+                            <span class="quote-icon"><i class="fas fa-quote-left"></i></span>
+                            <p>EMIT Mühendislik ile çalışmak her zaman güven verici olmuştur. Sistemlerimizin bakımı ve kontrolü konusunda titiz çalışmalarından dolayı teşekkür ederiz.</p>
+                        </div>
+                        <div class="testimonial-project">
+                            <span class="project-badge">Yangın Algılama Sistemi</span>
+                            <span class="project-year">2022</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-col">
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <div class="client-logo">
+                                <img src="https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img/https://kurumsalsurdurulebilirlik.com/wp-content/uploads/2023/05/bakioglu_rgb_4f0de.png" alt="Bakioğlu Logo">
+                            </div>
+                            <div class="client-details">
+                                <h4>Bakioğlu Holding</h4>
+                                <span>İşletme Yöneticisi</span>
+                                <div class="testimonial-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-body">
+                            <span class="quote-icon"><i class="fas fa-quote-left"></i></span>
+                            <p>Tesislerimizin yangın güvenliği konusunda EMIT Mühendislik'in sağladığı özel çözümler sayesinde güvende hissediyoruz. Profesyonel yaklaşımları için teşekkürler.</p>
+                        </div>
+                        <div class="testimonial-project">
+                            <span class="project-badge">Gazlı Söndürme Sistemi</span>
+                            <span class="project-year">2023</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-col">
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <div class="client-logo">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK3l67o8UefRiobINK70irsaito-kjVHGQMSAzOc6tUMqYCPwvpATXwphbYn_wF5iGZQ&usqp=CAU" alt="Teknoplas Logo">
+                            </div>
+                            <div class="client-details">
+                                <h4>Teknoplas</h4>
+                                <span>Genel Müdür</span>
+                                <div class="testimonial-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-body">
+                            <span class="quote-icon"><i class="fas fa-quote-left"></i></span>
+                            <p>Periyodik kontrol hizmetleriyle yasal yükümlülüklerimizi sorunsuz yerine getirmemizi sağlayan EMIT Mühendislik ekibine teşekkür ederiz.</p>
+                        </div>
+                        <div class="testimonial-project">
+                            <span class="project-badge">Periyodik Kontrol</span>
+                            <span class="project-year">2023</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-5">
+                <div class="col-12 text-center mb-4">
+                    <span class="section-badge">GÜVENİLİR ÇÖZÜM ORTAĞINIZ</span>
+                    <h2 class="section-title">Rakamlarla <span style="color: #dc3545;">EMIT Mühendislik</span></h2>
+                    <p class="section-subtitle">20 yıllık tecrübemizle endüstriyel tesislerinizin güvenliğini sağlıyoruz</p>
+                </div>
+                <div class="col-12">
+                    <div class="trust-indicator">
+                        <div class="trust-badge-wrapper">
+                            <div class="trust-badge">
+                                <i class="fas fa-users"></i>
+                                <span class="counter">180</span>
+                                <span class="badge-label">Aktif Müşteri</span>
+                            </div>
+                            <div class="trust-badge">
+                                <i class="fas fa-check-circle"></i>
+                                <span class="counter">97<small>%</small></span>
+                                <span class="badge-label">Müşteri Memnuniyeti</span>
+                            </div>
+                            <div class="trust-badge">
+                                <i class="fas fa-project-diagram"></i>
+                                <span class="counter">250</span>
+                                <span class="badge-label">Tamamlanan Proje</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hizmetlerimiz Bölümü -->
+    <section id="hizmetlerimiz" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up" data-aos-duration="800">
+                        <span class="section-badge">DOĞRU VE GÜVENİLİR HİZMETLER</span>
+                    <h2 class="section-title">Hizmetlerimiz</h2>
+                    <p class="section-subtitle text-muted">Endüstriyel tesisler için kapsamlı yangın güvenliği çözümleri</p>
+                </div>
+            </div>
+            
+            <div class="row service-row" id="proje-danismanligi" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100" data-aos-offset="200">
+                <div class="col-md-6 mb-4">
+                    <div class="service-image-container" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">
+                        <img src="https://www.sermedins.com/tema/genel/uploads/hizmetler/consultancy2_1.jpg" alt="Proje Danışmanlığı" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="service-content" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
+                        <h3>Proje Danışmanlığı</h3>
+                        <p>Endüstriyel tesisleriniz için yangın güvenliği açısından en doğru çözümleri belirleme sürecinde uzman kadromuzla yanınızdayız. Tesisinizin ihtiyaçlarına özel danışmanlık hizmetlerimiz:</p>
+                        <ul>
+                            <li data-aos="fade-left" data-aos-delay="500">Risk analizi ve değerlendirmesi</li>
+                            <li data-aos="fade-left" data-aos-delay="600">Uygun sistem tasarımı ve planlaması</li>
+                            <li data-aos="fade-left" data-aos-delay="700">Mevzuata uygunluk kontrolleri</li>
+                            <li data-aos="fade-left" data-aos-delay="800">Maliyet optimizasyonu</li>
+                        </ul>
+                        <a href="#iletisim" class="btn btn-outline-danger" data-aos="fade-up" data-aos-delay="900">Detaylı Bilgi</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row service-row mt-5" id="proje-taahhut" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">
+                <div class="col-md-6 mb-4 order-md-2">
+                    <div class="service-image-container" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">
+                        <img src="https://dinamikmekanik.com.tr/kobipanel/assets/img/hizmetler/2443626089.jpg" alt="Proje Taahhüt" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4 order-md-1">
+                    <div class="service-content" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
+                        <h3>Proje Taahhüt Hizmetleri</h3>
+                        <p>Endüstriyel tesisleriniz için gazlı söndürme sistemlerinin tasarımından kurulumuna ve devreye alınmasına kadar tüm aşamaları kapsayan anahtar teslim hizmetler sunuyoruz:</p>
+                        <ul>
+                            <li data-aos="fade-right" data-aos-delay="500">Gazlı söndürme sistemleri tasarımı ve kurulumu</li>
+                            <li data-aos="fade-right" data-aos-delay="600">Acil durum senaryoları oluşturulması</li>
+                            <li data-aos="fade-right" data-aos-delay="700">Alarm ve kontrol sistemleri entegrasyonu</li>
+                            <li data-aos="fade-right" data-aos-delay="800">Sistem devreye alma ve test işlemleri</li>
+                        </ul>
+                        <a href="#iletisim" class="btn btn-outline-danger" data-aos="fade-up" data-aos-delay="900">Detaylı Bilgi</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row service-row mt-5" id="teknik-servis" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300" data-aos-offset="200">
+                <div class="col-md-6 mb-4">
+                    <div class="service-image-container" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">
+                        <img src="https://mlkqlm4zzthi.i.optimole.com/w:1024/h:682/q:mauto/f:avif/https://karakurtmuhendislik.com/wp-content/uploads/2023/09/teknikservis.jpg" alt="Teknik Servis" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="service-content" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
+                        <h3>Teknik Servis Bakım</h3>
+                        <p>Mevcut sistemlerinden memnun olmayan ve değişim isteyen müşterilerimiz için özel çözümler sunuyoruz. Bakım hizmetlerimiz:</p>
+                        <ul>
+                            <li data-aos="fade-left" data-aos-delay="500">Periyodik sistem bakımları</li>
+                            <li data-aos="fade-left" data-aos-delay="600">Arıza tespit ve giderme</li>
+                            <li data-aos="fade-left" data-aos-delay="700">Sistem güncellemeleri ve modernizasyonu</li>
+                            <li data-aos="fade-left" data-aos-delay="800">Sistem performans testleri</li>
+                        </ul>
+                        <a href="#iletisim" class="btn btn-outline-danger" data-aos="fade-up" data-aos-delay="900">Detaylı Bilgi</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row service-row mt-5" id="periyodik-kontrol" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400" data-aos-offset="200">
+                <div class="col-md-6 mb-4 order-md-2">
+                    <div class="service-image-container" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">
+                        <img src="https://www.trakyalaboratuvar.com.tr/wp-content/uploads/2023/10/yangin-tesisati-periyodik-muayene-1024x684.jpg" alt="Periyodik Kontrol" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4 order-md-1">
+                    <div class="service-content" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
+                        <h3>Periyodik Kontrol Hizmetleri</h3>
+                        <p>Ekipnet imzalı periyodik kontrol hizmetlerimiz ile yasal yükümlülüklerinizi sorunsuz yerine getirin:</p>
+                        <div class="alert alert-danger" data-aos="fade-in" data-aos-delay="500">
+                            <h5>Periyodik Kontrol vs Periyodik Bakım</h5>
+                            <p><strong>Periyodik Kontrol:</strong> Yasal zorunluluk kapsamında rapor sunulan denetim hizmetidir.</p>
+                            <p><strong>Periyodik Bakım:</strong> Sistemin tam inceleme ve bakımını içeren teknik servis hizmetidir.</p>
+                            <p>Yönetmelik gereği (Mad. X.X.X): <em>"Aynı kişi aynı firmaya hem periyodik muayene, hem teknik servis hizmeti veremez."</em></p>
+                        </div>
+                        <a href="#iletisim" class="btn btn-outline-danger" data-aos="fade-up" data-aos-delay="900">Detaylı Bilgi</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Haberler Bölümü -->
+    <section id="haberler" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up" data-aos-duration="800">
+                    <span class="section-badge">DOĞRU BİLGİ VE HABERLER</span>
+                    <h2 class="section-title position-relative pb-2">Haberler & <span class="text-danger">Bilgilendirme</span></h2>
+                    <p class="section-subtitle text-muted">Yangın güvenliği ile ilgili güncel haberler ve bilgilendirme yazıları</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in-up" data-aos-duration="800" data-aos-delay="100" data-aos-offset="200">
+                    <div class="news-card h-100 shadow-sm rounded overflow-hidden">
+                        <div class="news-image-container" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="300">
+                            <img src="https://images.unsplash.com/photo-1560264280-88b68371db39?q=80&w=600&h=400&auto=format&fit=crop" class="card-img-top news-image" alt="Yangın Haberi">
+                            <div class="news-overlay">
+                                <span class="news-date">15 Nisan 2023</span>
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <h5 class="card-title fw-bold mb-3">Yangın Algılama Sistemleri Nasıl Kurulmamalı?</h5>
+                            <p class="card-text text-muted">Endüstriyel tesislerde yangın algılama sistemlerinin kurulumunda yapılan yaygın hatalar ve bunların yol açabileceği sonuçlar.</p>
+                            <a href="#" class="btn-read-more">Devamını Oku <i class="fas fa-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in-up" data-aos-duration="800" data-aos-delay="200" data-aos-offset="200">
+                    <div class="news-card h-100 shadow-sm rounded overflow-hidden">
+                        <div class="news-image-container" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="400">
+                            <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=600&h=400&auto=format&fit=crop" class="card-img-top news-image" alt="Saha Tecrübesi">
+                            <div class="news-overlay">
+                                <span class="news-date">2 Mart 2023</span>
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <h5 class="card-title fw-bold mb-3">Sahada Yapılan Yanlışlar</h5>
+                            <p class="card-text text-muted">Yangın söndürme sistemlerinin kurulumunda ve bakımında saha deneyimimizle tespit ettiğimiz yaygın hatalar.</p>
+                            <a href="#" class="btn-read-more">Devamını Oku <i class="fas fa-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in-up" data-aos-duration="800" data-aos-delay="300" data-aos-offset="200">
+                    <div class="news-card h-100 shadow-sm rounded overflow-hidden">
+                        <div class="news-image-container" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="500">
+                            <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=600&h=400&auto=format&fit=crop" class="card-img-top news-image" alt="Bilirkişi Raporu">
+                            <div class="news-overlay">
+                                <span class="news-date">10 Şubat 2023</span>
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <h5 class="card-title fw-bold mb-3">X Fabrikasındaki Yangın - Bilirkişi Raporu</h5>
+                            <p class="card-text text-muted">Geçtiğimiz ay meydana gelen endüstriyel tesis yangınına ilişkin bilirkişi raporunun detaylı analizi.</p>
+                            <a href="#" class="btn-read-more">Devamını Oku <i class="fas fa-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-12 text-center" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
+                    <a href="#" class="btn btn-danger btn-lg rounded-pill px-4 shadow-sm">Tüm Haberler <i class="fas fa-long-arrow-alt-right ms-2"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Referanslar ve Çözüm Ortakları Bölümü -->
+    <section id="referanslar" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5 animate__animated animate__fadeInUp">
+                    <span class="section-badge">ÇÖZÜM ORTAKLARI</span>
+                    <h2 class="section-title">Referanslar & <span class="text-danger">Çözüm Ortakları</span></h2>
+                    <p class="section-subtitle">Birlikte çalıştığımız değerli firmalar ve güvenilir çözüm ortaklarımız</p>
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-12">
+                    <!-- Referans kartları için owl carousel kullanıyoruz -->
+                    <div class="owl-carousel referans-carousel">
+                        <div class="referans-item">
+                            <div class="partner-card animate__animated animate__fadeInUp">
+                                <div class="partner-logo">
+                                    <img src="https://www.shannonchamber.ie/wp-content/uploads/2024/07/siemens-logo.png" alt="Siemens" class="img-fluid">
+                                </div>
+                                <div class="partner-info">
+                                    <h5>Siemens</h5>
+                                    <p>Yangın algılama ve söndürme sistemleri teknoloji ortağımız</p>
+                                </div>
+                                <div class="partner-overlay">
+                                    <div class="overlay-content">
+                                        <p>Siemens ile 2008'den bu yana stratejik işbirliğimiz kapsamında 120+ endüstriyel tesise çözüm sağladık.</p>
+                                        <a href="#" class="btn btn-sm btn-outline-light">Detaylı Bilgi</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="referans-item">
+                            <div class="partner-card animate__animated animate__fadeInUp" data-wow-delay="0.2s">
+                                <div class="partner-logo">
+                                    <img src="https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img/https://kurumsalsurdurulebilirlik.com/wp-content/uploads/2023/05/bakioglu_rgb_4f0de.png" alt="Bakioğlu Holding" class="img-fluid">
+                                </div>
+                                <div class="partner-info">
+                                    <h5>Bakioğlu Holding</h5>
+                                    <p>Yangın güvenliği çözümleri sağladığımız stratejik ortak</p>
+                                </div>
+                                <div class="partner-overlay">
+                                    <div class="overlay-content">
+                                        <p>Bakioğlu Holding tesislerinde FM200 gazlı söndürme ve erken algılama sistemleri kurulumu gerçekleştirdik.</p>
+                                        <a href="#" class="btn btn-sm btn-outline-light">Detaylı Bilgi</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="referans-item">
+                            <div class="partner-card animate__animated animate__fadeInUp" data-wow-delay="0.4s">
+                                <div class="partner-logo">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXTZXMDq7bz0VEnkP66GVFcxYtB4mycZAK_kotAmT9k7Pf-akohJuCqBVlsn48hNI7Xiw&usqp=CAU" alt="Halit Ünlü" class="img-fluid">
+                                </div>
+                                <div class="partner-info">
+                                    <h5>Halit Ünlü</h5>
+                                    <p>Endüstriyel tesis güvenliği konusunda işbirliği yaptığımız firma</p>
+                                </div>
+                                <div class="partner-overlay">
+                                    <div class="overlay-content">
+                                        <p>2015'ten bu yana Halit Ünlü üretim tesislerinde yangın güvenliği sistemleri bakım ve periyodik kontrolleri yapıyoruz.</p>
+                                        <a href="#" class="btn btn-sm btn-outline-light">Detaylı Bilgi</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="referans-item">
+                            <div class="partner-card animate__animated animate__fadeInUp" data-wow-delay="0.6s">
+                                <div class="partner-logo">
+                                    <img src="https://www.teknoplas.net/wp-content/uploads/2023/02/2.png" alt="Teknoplas" class="img-fluid">
+                                </div>
+                                <div class="partner-info">
+                                    <h5>Teknoplas</h5>
+                                    <p>Yangın güvenliği sistemleri sağladığımız üretim tesisi</p>
+                                </div>
+                                <div class="partner-overlay">
+                                    <div class="overlay-content">
+                                        <p>Teknoplas'ın 5 farklı lokasyonundaki üretim tesislerinde komple yangın güvenliği çözümleri sunduk.</p>
+                                        <a href="#" class="btn btn-sm btn-outline-light">Detaylı Bilgi</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="referans-item">
+                            <div class="partner-card animate__animated animate__fadeInUp" data-wow-delay="0.8s">
+                                <div class="partner-logo">
+                                    <img src="https://cdnuploads.aa.com.tr/uploads/Contents/2020/03/04/thumbs_b_c_a5ba64a27d49a929e9fdf630ad8ba4a1.jpg" alt="Bosch" class="img-fluid">
+                                </div>
+                                <div class="partner-info">
+                                    <h5>Bosch</h5>
+                                    <p>Endüstriyel yangın güvenliği ekipmanları tedarikçimiz</p>
+                                </div>
+                                <div class="partner-overlay">
+                                    <div class="overlay-content">
+                                        <p>Bosch yangın alarm sistemleri ve güvenlik çözümleri ile entegre çalışan projelerimiz bulunmaktadır.</p>
+                                        <a href="#" class="btn btn-sm btn-outline-light">Detaylı Bilgi</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="referans-item">
+                            <div class="partner-card animate__animated animate__fadeInUp" data-wow-delay="1.0s">
+                                <div class="partner-logo">
+                                    <img src="https://istanbulcevahir.com/wp-content/uploads/2023/03/arcelik.png" alt="Arçelik" class="img-fluid">
+                                </div>
+                                <div class="partner-info">
+                                    <h5>Arçelik</h5>
+                                    <p>Üretim tesisleri güvenlik sistemleri müşterimiz</p>
+                                </div>
+                                <div class="partner-overlay">
+                                    <div class="overlay-content">
+                                        <p>Arçelik'in Türkiye genelindeki üretim tesislerinde yangın güvenliği ve algılama sistemleri kurulumu tamamladık.</p>
+                                        <a href="#" class="btn btn-sm btn-outline-light">Detaylı Bilgi</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="referans-item">
+                            <div class="partner-card animate__animated animate__fadeInUp" data-wow-delay="1.2s">
+                                <div class="partner-logo">
+                                    <img src="https://intes.org.tr/wp-content/uploads/2021/05/enka-paz-logo.jpg" alt="ENKA" class="img-fluid">
+                                </div>
+                                <div class="partner-info">
+                                    <h5>ENKA</h5>
+                                    <p>Endüstriyel proje iş ve tesis güvenliği ortağımız </p>
+                                </div>
+                                <div class="partner-overlay">
+                                    <div class="overlay-content">
+                                        <p>ENKA ile birlikte yurt içi ve yurt dışındaki büyük ölçekli endüstriyel projelerde güvenlik çözümleri sağladık.</p>
+                                        <a href="#" class="btn btn-sm btn-outline-light">Detaylı Bilgi</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <a href="#" class="btn btn-danger btn-lg rounded-0 animate__animated animate__fadeInUp">Tüm Referanslarımız <i class="fas fa-arrow-right ms-2"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- İletişim Bölümü -->
+    <section id="iletisim" class="py-5 contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <span class="section-badge" data-aos="fade-up">BİZE ULAŞIN</span>
+                    <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">İletişim</h2>
+                    <p class="section-subtitle" data-aos="fade-up" data-aos-delay="200">Endüstriyel yangın güvenliği çözümleri için bizimle iletişime geçin</p>
+                </div>
+            </div>
+            <div class="row g-4 align-items-center">
+                <div class="col-lg-5 mb-4 mb-lg-0" data-aos="fade-right" data-aos-duration="800">
+                    <div class="contact-info p-4 rounded-lg">
+                        <div class="contact-header mb-4">
+                            <span class="contact-icon-wrapper mb-3">
+                                <i class="fas fa-headset contact-main-icon"></i>
+                            </span>
+                            <h3>İletişim Bilgilerimiz</h3>
+                            <p class="lead">Endüstriyel tesisiniz için yangın güvenliği çözümleri hakkında bilgi almak için hemen bize ulaşın.</p>
+                        </div>
+                        <ul class="contact-details list-unstyled">
+                            <li class="d-flex align-items-center mb-3" data-aos="fade-up" data-aos-delay="100">
+                                <div class="contact-icon-box me-3">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div>
+                                    <strong>Adres:</strong><br>
+                                    [Şirket Adresi], İstanbul
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-center mb-3" data-aos="fade-up" data-aos-delay="200">
+                                <div class="contact-icon-box me-3">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div>
+                                    <strong>Telefon:</strong><br>
+                                    +90 212 XXX XX XX
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-center mb-3" data-aos="fade-up" data-aos-delay="300">
+                                <div class="contact-icon-box me-3">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div>
+                                    <strong>E-posta:</strong><br>
+                                    info@emitmuhendislik.com
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-center" data-aos="fade-up" data-aos-delay="400">
+                                <div class="contact-icon-box me-3">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div>
+                                    <strong>Çalışma Saatleri:</strong><br>
+                                    Pazartesi - Cuma: 09:00 - 18:00
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="social-links mt-4" data-aos="fade-up" data-aos-delay="500">
+                            <h5 class="mb-3">Bizi Takip Edin</h5>
+                            <div class="d-flex">
+                                <a href="#" class="social-icon linkedin"><i class="fab fa-linkedin"></i></a>
+                                <a href="#" class="social-icon twitter"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="social-icon facebook"><i class="fab fa-facebook"></i></a>
+                                <a href="#" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7" data-aos="fade-left" data-aos-duration="800">
+                    <div class="contact-form-container p-4 p-lg-5 rounded-lg shadow-lg">
+                        <div class="form-header mb-4">
+                            <h3>Bize Yazın</h3>
+                            <p>Aşağıdaki formu doldurarak bize ulaşabilirsiniz. En kısa sürede dönüş yapacağız.</p>
+                        </div>
+                        <form id="contactForm">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating mb-3">
+                                        <input type="text" class="form-control" id="contactName" placeholder="Adınız Soyadınız" required>
+                                        <label for="contactName">Adınız Soyadınız</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating mb-3">
+                                        <input type="email" class="form-control" id="contactEmail" placeholder="E-posta Adresiniz" required>
+                                        <label for="contactEmail">E-posta Adresiniz</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating mb-3">
+                                        <input type="text" class="form-control" id="contactCompany" placeholder="Firma Adı">
+                                        <label for="contactCompany">Firma Adı</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating mb-3">
+                                        <input type="tel" class="form-control" id="contactPhone" placeholder="Telefon Numaranız">
+                                        <label for="contactPhone">Telefon Numaranız</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <select class="form-select" id="contactService" aria-label="Hizmet Seçimi">
+                                    <option selected disabled value="">Seçiniz</option>
+                                    <option value="1">Proje Danışmanlığı</option>
+                                    <option value="2">Proje Taahhüt Hizmetleri</option>
+                                    <option value="3">Teknik Servis Bakım</option>
+                                    <option value="4">Periyodik Kontrol Hizmetleri</option>
+                                </select>
+                                <label for="contactService">Hangi Hizmet Hakkında Bilgi Almak İstiyorsunuz?</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" id="contactMessage" placeholder="Mesajınız" style="height: 120px" required></textarea>
+                                <label for="contactMessage">Mesajınız</label>
+                            </div>
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" id="contactConsent" required>
+                                <label class="form-check-label small" for="contactConsent">
+                                    Kişisel verilerimin işlenmesine ve tarafıma ticari elektronik ileti gönderilmesine izin veriyorum.
+                                </label>
+                            </div>
+                            <div class="d-grid">
+                                <button type="submit" class="btn btn-danger btn-lg contact-submit-btn">
+                                    <i class="fas fa-paper-plane me-2"></i> Gönder
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Bölümü -->
+    <footer class="footer-section">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4 mb-md-0 footer-info">
+                        <div class="footer-logo">
+                            <img src="https://placehold.co/240x80/e71d24/ffffff?text=EMIT+Mühendislik" alt="EMIT Mühendislik Logo" class="img-fluid">
+                        </div>
+                        <p class="mt-3">EMIT Mühendislik, 20 yıllık tecrübesiyle endüstriyel tesisler için yangın güvenliği çözümleri sunan, alanında lider bir mühendislik firmasıdır.</p>
+                        <div class="footer-social-links">
+                            <a href="#" class="footer-social-icon linkedin" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="footer-social-icon twitter" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="footer-social-icon facebook" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="footer-social-icon instagram" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 mb-4 mb-md-0 footer-links">
+                        <h4>Hızlı Erişim</h4>
+                        <ul class="link-list">
+                            <li><a href="#"><i class="fas fa-angle-right"></i> Ana Sayfa</a></li>
+                            <li><a href="#hakkimizda"><i class="fas fa-angle-right"></i> Hakkımızda</a></li>
+                            <li><a href="#hizmetlerimiz"><i class="fas fa-angle-right"></i> Hizmetlerimiz</a></li>
+                            <li><a href="#referanslar"><i class="fas fa-angle-right"></i> Referanslar</a></li>
+                            <li><a href="#iletisim"><i class="fas fa-angle-right"></i> İletişim</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0 footer-links">
+                        <h4>Hizmetlerimiz</h4>
+                        <ul class="link-list">
+                            <li><a href="#proje-danismanligi"><i class="fas fa-angle-right"></i> Proje Danışmanlığı</a></li>
+                            <li><a href="#proje-taahhut"><i class="fas fa-angle-right"></i> Proje Taahhüt Hizmetleri</a></li>
+                            <li><a href="#teknik-servis"><i class="fas fa-angle-right"></i> Teknik Servis Bakım</a></li>
+                            <li><a href="#periyodik-kontrol"><i class="fas fa-angle-right"></i> Periyodik Kontrol Hizmetleri</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <h4>İletişim</h4>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <div class="icon-box">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <span>[Şirket Adresi], İstanbul</span>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon-box">
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <span>+90 212 XXX XX XX</span>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon-box">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <span>info@emitmuhendislik.com</span>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon-box">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <span>Pazartesi - Cuma: 09:00 - 18:00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-newsletter">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <h4>Bültenimize Abone Olun</h4>
+                        <p>Yangın güvenliği ve endüstriyel çözümler hakkındaki son gelişmelerden haberdar olun</p>
+                        <form action="#" method="post" class="newsletter-form">
+                            <div class="input-group">
+                                <input type="email" class="form-control" placeholder="E-posta Adresiniz" required>
+                                <button class="btn btn-danger" type="submit">Abone Ol</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-wave">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100">
+                <path fill="#e71d24" fill-opacity="0.1" d="M0,96L60,85.3C120,75,240,53,360,53.3C480,53,600,75,720,80C840,85,960,75,1080,64C1200,53,1320,43,1380,37.3L1440,32L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path>
+            </svg>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="copyright">
+                            <p>&copy; <span id="currentYear">2023</span> EMIT Mühendislik. Tüm Hakları Saklıdır.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="footer-legal-links">
+                            <a href="#">Gizlilik Politikası</a>
+                            <a href="#">Kullanım Koşulları</a>
+                            <a href="#">KVKK</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Yıl bilgisini otomatik güncelle
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+
+    <!-- Bootstrap ve jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Owl Carousel ve Waypoints -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    
+    <script>
+        $(document).ready(function(){
+            // Owl Carousel Ayarları
+            $(".referans-carousel").owlCarousel({
+                loop: true,
+                margin: 30,
+                autoplay: true,
+                autoplayTimeout: 5000,
+                autoplayHoverPause: true,
+                nav: true,
+                dots: true,
+                navText: [
+                    "<i class='fas fa-chevron-left'></i>",
+                    "<i class='fas fa-chevron-right'></i>"
+                ],
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    768: {
+                        items: 2
+                    },
+                    992: {
+                        items: 3
+                    }
+                }
+            });
+            
+            // Testimonial Carousel Ayarları
+            $(".testimonial-slider").owlCarousel({
+                loop: true,
+                margin: 30,
+                autoplay: true,
+                autoplayTimeout: 6000,
+                autoplayHoverPause: true,
+                nav: true,
+                dots: true,
+                navText: [
+                    "<button class='testimonial-prev'><i class='fas fa-arrow-left'></i></button>",
+                    "<button class='testimonial-next'><i class='fas fa-arrow-right'></i></button>"
+                ],
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    768: {
+                        items: 1
+                    },
+                    992: {
+                        items: 1
+                    }
+                }
+            });
+            
+            // Sayaç Animasyonu
+            $('.counter').counterUp({
+                delay: 10,
+                time: 2000
+            });
+            
+            // Animate.css ile görünürlük animasyonu
+            var waypoint = new Waypoint({
+                element: document.querySelector('.trust-indicator'),
+                handler: function() {
+                    $('.trust-badge').each(function(index) {
+                        setTimeout(function(el) {
+                            el.classList.add('animate__animated', 'animate__fadeInUp');
+                        }, index * 200, this);
+                    });
+                    this.destroy();
+                },
+                offset: '80%'
+            });
+            
+            // Trust Badge'ler için hover efekti
+            $('.trust-badge').hover(function() {
+                $(this).find('i').addClass('animate__animated animate__heartBeat');
+            }, function() {
+                $(this).find('i').removeClass('animate__animated animate__heartBeat');
+            });
+        });
+    </script>
+
+    <!-- AOS - Animate On Scroll JavaScript -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        // AOS kütüphanesini başlat
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true,
+            mirror: false
+        });
+        
+        // Haberler bölümü için özel scroll efektleri
+        $(document).ready(function() {
+            // Haber kartları hover efekti ve animasyonları
+            $('.news-card').hover(function() {
+                $(this).find('.card-title').addClass('text-danger');
+                $(this).find('.btn-read-more i').css('transform', 'translateX(5px)');
+            }, function() {
+                $(this).find('.card-title').removeClass('text-danger');
+                $(this).find('.btn-read-more i').css('transform', 'translateX(0)');
+            });
+            
+            // Scroll algılama ile özel efektler
+            $(window).scroll(function() {
+                var scrollTop = $(this).scrollTop();
+                
+                // Haberler bölümüne gelince paralaks efekti
+                if ($('#haberler').length) {
+                    var haberlerOffset = $('#haberler').offset().top;
+                    var haberlerHeight = $('#haberler').height();
+                    
+                    if (scrollTop > haberlerOffset - 500 && scrollTop < haberlerOffset + haberlerHeight) {
+                        var parallaxSpeed = (scrollTop - haberlerOffset + 500) / 10;
+                        $('#haberler').css('background-position', 'center ' + parallaxSpeed + 'px');
+                    }
+                }
+            });
+            
+            // Kartlara rastgele hafif hareket efekti ekle
+            function addFloatingAnimation() {
+                $('.news-card').each(function(index) {
+                    var randomDelay = Math.random() * 2;
+                    var randomDuration = 2 + Math.random() * 3;
+                    
+                    $(this).css({
+                        'animation': 'float ' + randomDuration + 's ease-in-out infinite',
+                        'animation-delay': randomDelay + 's'
+                    });
+                });
+            }
+            
+            // Yeni CSS animasyonu ekle
+            $("<style>")
+                .prop("type", "text/css")
+                .html(`
+                @keyframes float {
+                    0% {
+                        transform: translateY(0);
+                    }
+                    50% {
+                        transform: translateY(-5px);
+                    }
+                    100% {
+                        transform: translateY(0);
+                    }
+                }
+                @keyframes card-glow {
+                    0% {
+                        box-shadow: 0 5px 15px rgba(220, 53, 69, 0.1);
+                    }
+                    50% {
+                        box-shadow: 0 5px 25px rgba(220, 53, 69, 0.3);
+                    }
+                    100% {
+                        box-shadow: 0 5px 15px rgba(220, 53, 69, 0.1);
+                    }
+                }
+                `)
+                .appendTo("head");
+                
+            // Haberler bölümü görüldüğünde animasyonu başlat
+            var waypoint = new Waypoint({
+                element: document.querySelector('#haberler'),
+                handler: function() {
+                    setTimeout(function() {
+                        addFloatingAnimation();
+                    }, 1000);
+                    this.destroy();
+                },
+                offset: '50%'
+            });
+            
+            // Referanslar bölümü için özel efektler
+            $('.partner-card').hover(function() {
+                $(this).find('.partner-info h5').addClass('text-danger');
+                $(this).addClass('shadow-lg');
+            }, function() {
+                $(this).find('.partner-info h5').removeClass('text-danger');
+                $(this).removeClass('shadow-lg');
+            });
+            
+            // Referanslar için animasyon efektleri
+            function animatePartnerItems() {
+                $('.partner-logo').each(function(index) {
+                    var randomDelay = Math.random() * 2; 
+                    $(this).addClass('partner-logo-float');
+                    $(this).css('animation-delay', randomDelay + 's');
+                });
+                
+                // Partner kartvizitleri için rastgele animasyon giriş süresi
+                $('.partner-card').each(function(index) {
+                    $(this).css({
+                        'animation-delay': (index * 0.1) + 's',
+                        'animation-duration': '0.8s'
+                    });
+                });
+            }
+            
+            // Referanslar bölümü waypoint
+            var referenceWaypoint = new Waypoint({
+                element: document.querySelector('#referanslar'),
+                handler: function() {
+                    setTimeout(function() {
+                        animatePartnerItems();
+                    }, 300);
+                    this.destroy();
+                },
+                offset: '60%'
+            });
+            
+            // Firma logoları için 3D hover efekti
+            $('.partner-logo').on('mousemove', function(e) {
+                const imgElement = $(this).find('img');
+                
+                // Kart üzerindeki pozisyonu hesapla
+                const cardRect = this.getBoundingClientRect();
+                const xPosition = (e.clientX - cardRect.left) / cardRect.width;
+                const yPosition = (e.clientY - cardRect.top) / cardRect.height;
+                
+                // Dönüş derecesini hesapla (±10 derece)
+                const xRotation = 10 * (0.5 - yPosition);
+                const yRotation = 10 * (xPosition - 0.5);
+                
+                // 3D dönüş efektini uygula
+                imgElement.css('transform', `
+                    perspective(1000px)
+                    scale(1.05)
+                    rotateX(${xRotation}deg)
+                    rotateY(${yRotation}deg)
+                `);
+            });
+            
+            // Mouse karttan çıkınca eski haline getir
+            $('.partner-logo').on('mouseleave', function() {
+                $(this).find('img').css('transform', '');
+            });
+            
+            // Owl Carousel Dokunmatik için iyileştirmeler
+            $(".referans-carousel").on('touchstart', function() {
+                $(this).trigger('stop.owl.autoplay');
+            });
+            
+            $(".referans-carousel").on('touchend', function() {
+                $(this).trigger('play.owl.autoplay');
+            });
+            
+            // İletişim bölümü için özel animasyonlar ve etkileşimler
+            if ($('#iletisim').length) {
+                // İletişim formu input animasyonları
+                $('.form-control, .form-select').on('focus', function() {
+                    $(this).closest('.form-floating').addClass('input-focused');
+                }).on('blur', function() {
+                    if (!$(this).val()) {
+                        $(this).closest('.form-floating').removeClass('input-focused');
+                    }
+                });
+                
+                // İletişim ikonları renk değişimi
+                $('.contact-icon-box').hover(function() {
+                    $(this).addClass('bg-danger');
+                    $(this).find('i').addClass('text-white');
+                }, function() {
+                    $(this).removeClass('bg-danger');
+                    $(this).find('i').removeClass('text-white');
+                });
+                
+                // Form validasyonu ve gönderme animasyonu
+                $('#contactForm').on('submit', function(e) {
+                    e.preventDefault();
+                    
+                    // Form validasyonu
+                    var isValid = true;
+                    $(this).find('[required]').each(function() {
+                        if (!$(this).val()) {
+                            isValid = false;
+                            $(this).addClass('is-invalid');
+                        } else {
+                            $(this).removeClass('is-invalid');
+                        }
+                    });
+                    
+                    if (isValid) {
+                        var $submitBtn = $(this).find('.contact-submit-btn');
+                        var $icon = $submitBtn.find('i');
+                        var originalText = $submitBtn.text();
+                        
+                        // Gönderme animasyonu
+                        $submitBtn.prop('disabled', true);
+                        $icon.removeClass('fa-paper-plane').addClass('fa-spinner fa-spin');
+                        $submitBtn.text(' Gönderiliyor...');
+                        
+                        // Form başarılı gönderimi simülasyonu
+                        setTimeout(function() {
+                            $icon.removeClass('fa-spinner fa-spin').addClass('fa-check');
+                            $submitBtn.removeClass('btn-danger').addClass('btn-success');
+                            $submitBtn.text(' Mesajınız Gönderildi');
+                            
+                            // Form temizleme
+                            $('#contactForm')[0].reset();
+                            
+                            // Başarı mesajı gösterme
+                            var successAlert = $('<div class="alert alert-success mt-4 animate__animated animate__fadeIn" role="alert">' +
+                                '<i class="fas fa-check-circle me-2"></i> Mesajınız başarıyla gönderildi. En kısa sürede size dönüş yapacağız.' +
+                                '</div>');
+                            $('#contactForm').append(successAlert);
+                            
+                            // Formu tekrar sıfırlama süresi
+                            setTimeout(function() {
+                                $icon.removeClass('fa-check').addClass('fa-paper-plane');
+                                $submitBtn.removeClass('btn-success').addClass('btn-danger');
+                                $submitBtn.html('<i class="fas fa-paper-plane me-2"></i> Gönder');
+                                $submitBtn.prop('disabled', false);
+                                successAlert.remove();
+                            }, 5000);
+                        }, 2000);
+                    }
+                });
+                
+                // İletişim bölümüne gelince özel animasyon
+                var contactWaypoint = new Waypoint({
+                    element: document.querySelector('#iletisim'),
+                    handler: function() {
+                        // İletişim bilgilerinde pulse efekti
+                        $('.contact-icon-box').each(function(index) {
+                            var delay = index * 200;
+                            setTimeout(() => {
+                                $(this).addClass('animate__animated animate__pulse');
+                            }, delay);
+                        });
+                        
+                        // Form input alanlarında kısa animasyon
+                        $('.form-floating').each(function(index) {
+                            var delay = 100 + (index * 100);
+                            setTimeout(() => {
+                                $(this).addClass('animate__animated animate__fadeInUp');
+                            }, delay);
+                        });
+                        
+                        this.destroy();
+                    },
+                    offset: '50%'
+                });
+            }
+        });
+    </script>
+</body>
+</html> 

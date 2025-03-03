@@ -1,0 +1,78 @@
+/* ISO Sertifikaları için özel stil dosyası */
+.iso-badge-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 30px 0;
+    padding: 15px;
+}
+
+.iso-badge {
+    display: flex;
+    align-items: center;
+    padding: 12px 18px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    border: 1px solid rgba(220, 53, 69, 0.1);
+    min-width: 140px;
+}
+
+.iso-badge:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    background-color: #ffffff;
+}
+
+.iso-badge i {
+    font-size: 20px;
+    color: #dc3545;
+    margin-right: 10px;
+}
+
+.iso-badge span {
+    font-weight: 500;
+    color: #212529;
+}
+
+.certificate-badge-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 30px 0;
+    padding: 15px;
+}
+
+.certificate-badge {
+    display: flex;
+    align-items: center;
+    padding: 12px 18px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    border: 1px solid rgba(220, 53, 69, 0.15);
+    min-width: 140px;
+}
+
+.certificate-badge:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(220, 53, 69, 0.1);
+    background-color: #ffffff;
+    border-color: rgba(220, 53, 69, 0.3);
+}
+
+.certificate-badge i {
+    font-size: 22px;
+    color: #dc3545;
+    margin-right: 10px;
+}
+
+.certificate-badge span {
+    font-weight: 500;
+    color: #212529;
+    font-size: 14px;
+} 
